@@ -1,2 +1,1 @@
-release: heroku run php bin/console cache:clear && heroku run php bin/console cache:warmup
 web: heroku-php-apache2 public/
